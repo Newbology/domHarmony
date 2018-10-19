@@ -66,6 +66,9 @@ nameElem[1].innerHTML = "Peko Chan"
 
 //14. In the div id matches section, target the second div element with the class name of otherAge and change Age to 68.
 
+var ageElem = document.getElementsByClassName("otherAge");
+ageElem[1].innerHTML="68";
+
 
 
 
@@ -76,6 +79,18 @@ nameElem[1].innerHTML = "Peko Chan"
  //div with class name of status
  //div with class anem of Motto
 
+ var myImg = document.getElementsByTagName("img");
+ myImg[3].src="assets/zoo.JPG";
 
+var nameElem = document.getElementsByClassName("firstName");
+nameElem[2].innerHTML = "Kevin Tauzer"
 
+var ageElem = document.getElementsByClassName("otherAge");
+ageElem[2].innerHTML = "21";
+
+var statusElem = document.getElementsByClassName('status');
+statusElem[2].innerHTML = "Programmer"
+
+var mottoElem = document.getElementsByClassName('motto');
+mottoElem[2].innerHTML = "When life gives you lemons, you paint that shit gold."
 
